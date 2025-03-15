@@ -32,5 +32,13 @@
         <members>*</members>
         <name>StaticResource</name>
     </types>
+    <types>
+        <members>*</members>
+        <name>CustomLabels</name>
+    </types>
+    <types>
+        <members>fr</members>
+        <name>Translations</name>
+    </types>
     <version>59.0</version>
 </Package>
