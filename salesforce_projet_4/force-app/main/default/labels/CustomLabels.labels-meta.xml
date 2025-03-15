@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CustomLabels xmlns="http://soap.sforce.com/2006/04/metadata">
+    <labels>
+        <fullName>No_Products_Message</fullName>
+        <categories>UI Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Message displayed when no products are present</shortDescription>
+        <value>
+        <![CDATA[ <span>You don't have any product lines at the moment.</span>
+                <ol type="1">
+                    <li>First select a Catalog (Pricebook)</li>
+                    <li>Then select the products you wish to add.</li>
+                </ol>
+            ]]>
+        </value>
+    </labels>
+
+    <labels>
+        <fullName>Stock_Warning_Message</fullName>
+        <categories>Warning Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning message for quantity issue</shortDescription>
+        <value> 
+            <![CDATA[ 
+                <span>You have at least one line with a quantity issue, please delete this line or reduce its quantity.<br/>
+                If you absolutely need more products, please contact your System Administrator.</span>]]>
+        </value>
+    </labels>
+
+    <labels>
+        <fullName>Stock_Update_Error_Message</fullName>
+        <categories>Warning Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Warning message for quantity issue</shortDescription>
+        <value>Your opportunity cannot be updated because you have a quantity problem on your lines.</value>
+    </labels>
+
+    <labels>
+        <fullName>Product_Name_Column</fullName>
+        <categories>Column Headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Product name column header</shortDescription>
+        <value>Product Name</value>
+    </labels>
+
+    <labels>
+        <fullName>Unit_Price_Column</fullName>
+        <categories>Column Headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Unit price column header</shortDescription>
+        <value>Unit Price</value>
+    </labels>
+
+    <labels>
+        <fullName>Total_Price_Column</fullName>
+        <categories>Column Headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Total price column header</shortDescription>
+        <value>Total Price</value>
+    </labels>
+
+    <labels>
+        <fullName>Quantity_Column</fullName>
+        <categories>Column Headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Quantity column header</shortDescription>
+        <value>Quantity</value>
+    </labels>
+
+    <labels>
+        <fullName>Stock_Quantity_Column</fullName>
+        <categories>Column Headers</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Stock quantity column header</shortDescription>
+        <value>Stock Quantity</value>
+    </labels>
+
+    <labels>
+        <fullName>Delete_Action</fullName>
+        <categories>Actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Delete action label</shortDescription>
+        <value>Delete</value>
+    </labels>
+
+    <labels>
+        <fullName>OPPORTUNITY_PRODUCTS_LABEL</fullName>
+        <categories>UI Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>Opportunity products label</shortDescription>
+        <value>Opportunity products</value>
+    </labels>
+
+    <labels>
+        <fullName>CONFIRM_DELETE</fullName>
+        <categories>UI Messages</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>CONFIRM DELETE label</shortDescription>
+        <value>Product deleted</value>
+    </labels>
+
+    <labels>
+        <fullName>View_Product_Action</fullName>
+        <categories>Actions</categories>
+        <language>en_US</language>
+        <protected>false</protected>
+        <shortDescription>View product action label</shortDescription>
+        <value>View Product</value>
+    </labels>
+</CustomLabels>

@@ -1,0 +1,9 @@
+.noProductText {
+    margin: 10px 50px 20px;
+    font-weight: bold;
+}
+.warningStockText{
+    color: aliceblue;
+    text-align: left;
+    justify-content:left;
+}
