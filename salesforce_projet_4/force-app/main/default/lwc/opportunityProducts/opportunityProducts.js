@@ -35,7 +35,7 @@ export default class OpportunityProducts extends NavigationMixin(LightningElemen
 
     @api
     get hasNegativeQuantity() {
-        return this.products.some(e => e.Quantity < 0);
+        return this.products.some(item => this.isQuantityError(item));
     }
 
     @track columns = [ 
